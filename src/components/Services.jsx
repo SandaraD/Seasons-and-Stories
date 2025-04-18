@@ -41,7 +41,16 @@ const services = [
 
 function ServicesSection() {
   return (
-    <section className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
+    <section
+  className="py-5"
+  style={{
+    backgroundColor: "#FFFFFF",
+    backgroundImage: `url("https://www.transparenttextures.com/patterns/xv.png")`,
+    backgroundRepeat: "repeat",
+    backgroundSize: "auto",
+  }}
+>
+
       <Container>
         <h2 className="text-center mb-4 fw-bold">Our Services</h2>
         <Row className="g-4">
